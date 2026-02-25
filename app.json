@@ -9,13 +9,15 @@
     "newArchEnabled": true,
     "scheme": "pomodo",
     "ios": {
+      "bundleIdentifier": "com.mayukhsil.pomodo",
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "src/assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mayukhsil.pomodo"
     },
     "web": {
       "favicon": "src/assets/images/favicon.png"
