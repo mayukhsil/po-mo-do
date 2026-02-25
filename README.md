@@ -1,6 +1,6 @@
-# Starter Template with React Navigation
+# Pomodoro Timer (formerly Starter Template)
 
-This is a minimal starter template for React Native apps using Expo and React Navigation.
+This project has been converted into a bold, aesthetic Pomodoro timer built with Expo and React Navigation. It demonstrates:
 
 ## Launch your own
 

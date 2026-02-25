@@ -24,7 +24,8 @@ const HomeTabs = createBottomTabNavigator({
       screen: Explore,
       options: {
         headerShown: false,
-        tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+        tabBarLabel: 'Info',
+        tabBarIcon: ({ color }) => <IconSymbol size={28} name="info.circle" color={color} />,
       },
     },
   },
@@ -68,6 +69,6 @@ type RootStackParamList = StaticParamList<typeof RootStack>;
 
 declare global {
   namespace ReactNavigation {
-    interface RootParamList extends RootStackParamList {}
+    interface RootParamList extends RootStackParamList { }
   }
 }

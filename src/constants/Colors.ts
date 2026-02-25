@@ -14,6 +14,8 @@ export const Colors = {
     icon: '#687076',
     tabIconDefault: '#687076',
     tabIconSelected: tintColorLight,
+    pomodoroWork: '#e63946',           // bold red
+    pomodoroBreak: '#a8dadc',          // soft teal
   },
   dark: {
     text: '#ECEDEE',
@@ -22,5 +24,7 @@ export const Colors = {
     icon: '#9BA1A6',
     tabIconDefault: '#9BA1A6',
     tabIconSelected: tintColorDark,
+    pomodoroWork: '#e63946',          // same red works in dark
+    pomodoroBreak: '#a8dadc',         // same break color
   },
 };

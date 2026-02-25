@@ -10,6 +10,7 @@
     "reset-project": "node ./src/scripts/reset-project.js"
   },
   "dependencies": {
+    "@react-native-community/cli": "latest",
     "@expo/metro-runtime": "~6.1.2",
     "@expo/vector-icons": "^15.0.3",
     "@react-navigation/bottom-tabs": "^7.4.0",
